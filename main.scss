@@ -1,0 +1,83 @@
+// Universal Effects
+
+body{
+    font-family: 'Piazzolla', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button{
+    font-family: 'Piazzolla', serif;
+}
+
+button:focus{
+    outline: none;
+}
+
+// End of Universal Effects
+
+.height{
+    height: 100vh;
+}
+
+#banner{
+    // Direction:top to bottom (Default value)
+    background: linear-gradient(rgba(219, 98, 12, 0.6),rgba(129, 120, 113, 0.6)),url(./Banner-2.jpg);
+
+    // parallax affects
+    background-attachment: fixed;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-image{
+    background: url(./About.jpg);
+
+    // parallax affects
+    background-attachment: fixed;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.underline-one{
+    width: 150px;
+    height: 0.4rem;
+}
+
+.underline-two{
+    width: 170px;
+    height: 0.4rem;
+}
+
+
+.button-container{
+    .prev-btn,.next-btn{
+        border-color: transparent;
+        background-color: transparent;
+
+        color: hsl(205, 90%, 76%);
+        cursor: pointer;
+
+        transition: all 0.3s linear;
+
+        font-size: 2rem;
+        margin: 0 0.5rem;
+    }
+}
